@@ -1,0 +1,30 @@
+{
+  "name": "array-to-props",
+  "version": "1.0.0",
+  "description": "Convert array into a non iterable object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/array-to-props.git"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "convert"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/array-to-props/issues"
+  },
+  "homepage": "https://github.com/bredele/array-to-props#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "array-to-props",
   "version": "1.0.0",
-  "description": "Convert array into a non iterable object",
+  "description": "Array destructuring into a non iterable object.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,8 @@
   "keywords": [
     "array",
     "object",
-    "convert"
+    "convert",
+    "destructuring"
   ],
   "author": "Olivier Wietrich",
   "license": "MIT",

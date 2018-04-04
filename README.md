@@ -11,15 +11,19 @@ Array destructuring into a non iterable object.
 
 ```js
 const convert = require('array-to-props')
-convert([{
+const arr = [{
   name: 'foo',
   value: 'bar'
 }, {
   name: 'hello',
   value: 'world',
   where: 'earth'
-}], 'name')
+}]
+convert(arr, 'name')
 // => {foo: {value: 'bar'}, hello: {value: 'world', where: 'earth'}}
+
+convert(arr, 'name', 'value')
+// => {foo: 'bar', hello: 'world'}
 ```
 
 ## Installation

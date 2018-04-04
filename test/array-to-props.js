@@ -35,3 +35,18 @@ test('should convert array into an object with default key as name', assert => {
      bar: {value: 'boop'}
    })
  })
+
+test('should destructure newly created object', assert => {
+  assert.plan(1)
+  const obj = convert([{
+    name: 'foo',
+    value: 'beep'
+  }, {
+    name: 'bar',
+    value: 'boop'
+  }], 'name', 'value')
+  assert.deepEqual(obj, {
+    foo: 'beep',
+    bar: 'boop'
+  })
+})
